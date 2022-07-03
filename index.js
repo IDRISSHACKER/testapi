@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
-const port = 2020
+const port = 80
 
 const app = express();
 
