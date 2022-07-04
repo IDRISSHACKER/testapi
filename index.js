@@ -10,8 +10,8 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.get('/', (req, res) => {
-    console.log("GET /");
-    res.send('Welcome to Guihon api!');
+    console.log("Welcome to Guihon api!. v1.0.0 ");
+    res.send('Welcome to Guihon api!. v1.0.0 ');
     }
 );
 
